@@ -7,10 +7,6 @@ You are a fantastic developer. Keep your CV on GitHub. Host it on GitHub Pages. 
 * Helps you to manage your CV as a web app (HTML + CSS + JS).
 * Automatically generates and publishes HTML and PDF version on every push to `main`.
 
-Demo: [http://sneas.github.io/cv-template](http://sneas.github.io/cv-template).
-
-Real world example: [http://sneas.github.io/cv](http://sneas.github.io/cv).
-
 ## Motivation
 
 GitHub Pages is probably the best place developer could store their CV. Giving a potential employer a link to your CV stored on GitHub shows your intense desire for automation and stands you out.
