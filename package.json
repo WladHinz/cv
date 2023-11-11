@@ -3,11 +3,15 @@
   "description": "The Curriculum Vitae Template",
   "scripts": {
     "build": "node src/build.js",
+    "build-serve": "node src/build.js --serve",
     "watch": "chokidar '**/*' -i 'dist/**/*' -c 'npm run build'",
     "prestart": "npm run build",
     "start": "npm run watch & live-server dist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "watch-local": "npm run build --serve && live-server --watch='./src' --port=1234 dist",
+    "start-local": "npm run build-serve",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/dist\""
   },
   "repository": {
     "type": "git",
@@ -25,6 +29,22 @@
   "homepage": "https://github.com/sneas/cv-project#readme",
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
+    "concurrently": "^8.2.2",
+    "dayjs": "^1.11.4",
+    "fs-extra": "^10.1.0",
+    "gh-pages": "^6.0.0",
+    "git-repo-name": "^1.0.1",
+    "git-username": "^1.0.0",
+    "handlebars": "^4.7.7",
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2",
+    "markdown": "^0.5.0",
+    "puppeteer": "^16.1.0",
+    "speakingurl": "^14.0.1",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
     "dayjs": "^1.11.4",
     "fs-extra": "^10.1.0",
     "gh-pages": "^6.0.0",

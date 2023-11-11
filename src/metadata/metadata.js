@@ -1,67 +1,68 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Wladimir Hinz Baralt',
+  title: 'BI/Front-End Dev/Quant',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    'Location': '<a href="https://www.google.com/maps/place/Toronto,+ON/@43.7177675,-79.7077027,10z/data=!3m1!4b1!4m6!3m5!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!8m2!3d43.653226!4d-79.3831843!16zL20vMGg3aDY?entry=ttu"><i class="fa fa-home fact-icon"></i>Toronto</a>',
+    'LinkedIn': `<a href="https://www.linkedin.com/in/wladimirhinz">
+                  <i class="fa-brands fa-linkedin-in fact-icon"></i>wladimirhinz
                 </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'GitHub': '<a href="https://github.com/WladHinz"><i class="fa fa-github fact-icon"></i>WladHinz</a>',
+    'Email': '<a href="mailto:vladimirhinz@gmail.com"><i class="fa fa-envelope fact-icon"></i>vladimirhinz@gmail.com</a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['Python', 100],
+    ['R', 100],
+    ['C#', 100],
+    ['Power BI', 100],
+    ['D3.js', 100],
+    ['SQL', 100],
+    ['Docker', 100],
+    ['VBA', 95],
+    ['Streamlit', 100],
+    ['Office', 100],
+    ['Bloomberg', 100],
+    ['FactSet', 100],
+    ['English/French/Spanish', 0],
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: 'Manulife: Digital Enablement - Senior Quant Front-end Developer',
+      period: '09/2022 - Present',
+      skills: ['devops', 'bi', 'programming'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
+I'm responsible for developing and maintaining complex SQL queries, views, and stored procedures crucial for our production systems. I craft tools and scripts in VBA, Python, and R to boost our department's efficiency and automate tasks. I take pride in creating tools for data analysis, production, and investigative purposes, significantly enhancing our team's capabilities for comprehensive analysis and streamlined processes.
 `
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: 'Fiera Capital: Performance and Reporting - Lead Analyst',
+      period: '12/2021 - 08/2022',
+      skills: ['bi', 'programming'],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
+I was involved the development and maintenance of intricate SQL queries, views, and stored procedures vital for production. I played a key role in enhancing departmental efficiency by crafting tools and scripts using VBA, Python, and C#, significantly improving processes. Additionally, I built custom models for database validation across various business lines and created data analysis, production, and investigation tools essential for team utilization.
 `
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: 'CEM Benchmarking: Investment Benchmarking Service - Senior Analyst',
+      period: '01/2020 - 12/2021',
+      skills: ['bi', 'programming', 'presentations'],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
-  ],
-  experience: [
-    {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
+I was responsible for guiding client interactions, presenting results to management, and supporting CRM presentations. My role also involved backend programming in C# and Python, leading to enhanced team productivity through application development and automation of Excel-based tools for report production.
 `
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      title: 'CEM Benchmarking: Investment Benchmarking Service - Analyst',
+      period: '03/2017 - 12/2019',
+      skills: ['bi', 'programming', 'presentations'],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+I was responsible for preparing investment benchmarking reports for institutional investors, customizing proprietary models, and managing detailed pension plan investment portfolio data. I streamlined technology and files for production, providing timely and detailed analysis reports during client inquiries and presentations.
+`
+    },
+    {
+      title: "Ontario Teachers' Pension Plan: FI and FX - Emerging Markets - 2 Coop Terms",
+      period: '04/2016 - 12/2016',
+      skills: ['bi', 'programming', 'presentations'],
+      contents: `
+I developed daily portfolio tracking processes, implemented economic models, and contributed to weekly presentations supporting investment strategies. Additionally, I authored a publication highlighting key economic and political developments in emerging markets and provided regular risk reports to senior management.
 `
     }
   ]
